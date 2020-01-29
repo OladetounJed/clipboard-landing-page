@@ -1,0 +1,269 @@
+body {
+    border: 0;
+    margin: 0;
+    width: 100%;
+    font-family:'Bai Jamjuree', sans-serif;
+    color: rgb(102, 92, 92)
+}
+p {
+    color: rgb(102, 92, 92, 0.8);
+    line-height: 1.6em;
+} 
+
+
+
+/* ------------------
+Header Styling 
+----------------- */
+.header-con {
+    background-image: url(/images/bg-header-desktop.png);
+    background-color: white;
+    box-shadow: 0 0 20px 0 white inset;
+    width: 100%;
+}
+header img {
+    width: 5em;
+    display: block;
+    margin: auto;
+    padding: 7em 0 3em 0;
+}
+
+.header-text-con h3{
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+}
+
+.header-text-con p {
+    text-align: center;
+   
+}
+
+.header-button-con {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header-button-1 {
+    width: 13%;
+    height: 3em;
+    border-radius: 2em;
+    border: none;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: 1em 0.8em 0 0;
+}
+
+.header-button-2 {
+    background-color: hsl(233, 100%, 69%);
+}
+
+/*-------------
+Header Mobile Responsiveness
+------------- */
+
+@media (max-width: 900px){
+    .header-button-con {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-button-1 {
+        width: 70%;
+    }
+}
+
+/*-------------
+Intro Styling
+------------- */
+
+
+.intro-header {
+    text-align: center;
+    margin-top: 9em;
+}
+
+.intro-con {
+    display: flex;
+    margin-top: 9em;  
+    
+}
+
+.intro-con-img {
+    width: 45%;
+    margin-left: -2em;
+}
+
+.intro-col {
+    margin-left: 9em;  
+}
+
+.intro-col-child {
+    padding-top: 1em;
+}
+
+/*-------------
+Intro Mobile Responsiveness
+------------- */
+@media (max-width: 900px){
+
+.intro-header {
+    margin-top: 7em;
+}
+
+.intro-con {
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-con-img {
+    margin: 0;
+    width: 80%;
+}
+
+.intro-col {
+    margin: 0;
+    text-align: center;
+    width: 80%;
+}
+}
+
+/*-------------
+Details Section Styling
+------------- */
+
+.detail-con {
+    margin-top: 10em;
+}
+
+.detail-text-con {
+    text-align: center;
+}
+
+.detail-text-con h3 {
+    font-size: 1.8em;
+}
+
+.detail-img {
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 3em;
+}
+
+.details-info-col-con {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.details-info-col {
+    width: 25%;
+    display: block;
+    margin: auto;
+    margin-top: 6em;
+    
+}
+
+/*-------------
+Details Mobile Responsiveness
+------------- */
+@media (max-width: 900px){
+
+.details-info-col-con {
+    flex-direction: column; 
+}
+
+.details-info-col {
+    width: 80%;
+}
+}
+
+/*-------------
+ Patner Company Styling
+------------- */
+
+.partner-company-con {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 9em 0;
+}
+
+.partner-company-con img {
+    width: 6em;
+    
+}
+
+.aside-button-con {
+    margin-top: 2em;
+}
+
+/*-------------
+Partner Company Responsiveness
+------------- */
+@media (max-width: 900px){
+    
+    .partner-company-con {
+        flex-direction: column;
+        align-items: center;
+        margin: 3em 0;
+    }
+
+    .partner-company-con img {
+        padding-top: 5em;
+    }
+
+    .aside-text-con {
+        margin-top: 8em;
+    }
+
+}
+
+/*-------------
+Footer Section Styling
+------------- */
+
+footer {
+    margin: 6em 0 1em 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3em;
+}
+
+.footer-logo {
+    width: 3em;
+}
+
+
+
+footer p {
+    line-height: 2em;
+    font-weight: bolder;
+    margin: 0;
+    text-align: ;
+}
+
+footer img {
+    padding-left: 0.5em;
+    
+}
+
+/*-------------
+Footer Responsiveness
+------------- */
+@media (max-width: 900px){
+    footer {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+   footer p {
+       line-height: 3em;
+   }
+
+    footer img {
+        padding: 2em 1em;
+    }
